@@ -1,17 +1,17 @@
-const consoleLog = document.querySelector("#consoleLog");
+const consolelog = document.querySelector("#consolelog");
 
-consoleLog.addEventListener("click", () => {
+consolelog.addEventListener("click", () => {
   alert("Служит для вывода информации в консоль");
 });
 
-const alertShow = document.querySelector("#alert");
+const alertExample = document.querySelector("#alert");
 
-alertShow.addEventListener("click", () => {
-  alert("Служит для отображения диалового окна с каким-то текстом");
+alertExample.addEventListener("click", () => {
+  alert("Служит для вывода информации в дилоговое окно");
 });
 
-const promtShow = document.querySelector("#prompt");
+const promptExample = document.querySelector("#prompt");
 
-promtShow.addEventListener("click", () => {
-  alert("Служит для отображения диалового окна c запросом на вывод текста ");
+promptExample.addEventListener("click", () => {
+  alert("Отображает диалоговое окно с запросом на ввод текста");
 });
